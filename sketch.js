@@ -33,7 +33,7 @@ background(backgroundImg);
   }
     
   for(var j=0;j<snow.length ;j++){
-      snow[j].display;
+      snow[j].display();
   }
 
  Engine.update(engine);
